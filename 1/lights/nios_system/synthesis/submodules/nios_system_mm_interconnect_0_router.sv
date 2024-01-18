@@ -210,15 +210,15 @@ module nios_system_mm_interconnect_0_router
     end
 
     // ( 0x2000 .. 0x2010 )
-    if ( {address[RG:PAD2],{PAD2{1'b0}}} == 14'h2000  && read_transaction  ) begin
+    if ( {address[RG:PAD2],{PAD2{1'b0}}} == 14'h2000   ) begin
             src_channel = 5'b10000;
-            src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 4;
+            src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 0;
     end
 
     // ( 0x2010 .. 0x2020 )
-    if ( {address[RG:PAD3],{PAD3{1'b0}}} == 14'h2010   ) begin
+    if ( {address[RG:PAD3],{PAD3{1'b0}}} == 14'h2010  && read_transaction  ) begin
             src_channel = 5'b01000;
-            src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 0;
+            src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 4;
     end
 
     // ( 0x2020 .. 0x2028 )

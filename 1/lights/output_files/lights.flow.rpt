@@ -1,5 +1,5 @@
 Flow report for lights
-Thu Jan 18 20:52:05 2024
+Fri Jan 19 01:43:59 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,19 +40,19 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Thu Jan 18 20:51:54 2024       ;
+; Flow Status                     ; Successful - Fri Jan 19 01:43:48 2024       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; lights                                      ;
 ; Top-level Entity Name           ; lights                                      ;
 ; Family                          ; Cyclone V                                   ;
 ; Device                          ; 5CSEBA6U23I7                                ;
 ; Timing Models                   ; Final                                       ;
-; Logic utilization (in ALMs)     ; 1,276 / 41,910 ( 3 % )                      ;
-; Total registers                 ; 1928                                        ;
-; Total pins                      ; 10 / 314 ( 3 % )                            ;
+; Logic utilization (in ALMs)     ; 1,046 / 41,910 ( 2 % )                      ;
+; Total registers                 ; 1530                                        ;
+; Total pins                      ; 18 / 314 ( 6 % )                            ;
 ; Total virtual pins              ; 0                                           ;
-; Total block memory bits         ; 95,424 / 5,662,720 ( 2 % )                  ;
-; Total DSP Blocks                ; 3 / 112 ( 3 % )                             ;
+; Total block memory bits         ; 77,952 / 5,662,720 ( 1 % )                  ;
+; Total DSP Blocks                ; 2 / 112 ( 2 % )                             ;
 ; Total HSSI RX PCSs              ; 0                                           ;
 ; Total HSSI PMA RX Deserializers ; 0                                           ;
 ; Total HSSI TX PCSs              ; 0                                           ;
@@ -67,7 +67,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 01/18/2024 20:49:56 ;
+; Start date & time ; 01/19/2024 01:41:41 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; lights              ;
 +-------------------+---------------------+
@@ -78,7 +78,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+---------------------------------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                                         ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+---------------------------------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 255543642624149.170560379501988                               ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 255543642624149.170562130109728                               ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 100                                                           ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; -40                                                           ; --            ; --          ; --         ;
 ; MISC_FILE                           ; nios_system/synthesis/../nios_system.cmp                      ; --            ; --          ; --         ;
@@ -91,7 +91,7 @@ refer to the applicable agreement for further details.
 ; PROJECT_OUTPUT_DIRECTORY            ; output_files                                                  ; --            ; --          ; --         ;
 ; SLD_FILE                            ; nios_system/synthesis/nios_system.regmap                      ; --            ; --          ; --         ;
 ; SLD_FILE                            ; nios_system/synthesis/nios_system.debuginfo                   ; --            ; --          ; --         ;
-; SLD_INFO                            ; QSYS_NAME nios_system HAS_SOPCINFO 1 GENERATION_ID 1705603710 ; --            ; nios_system ; --         ;
+; SLD_INFO                            ; QSYS_NAME nios_system HAS_SOPCINFO 1 GENERATION_ID 1705621268 ; --            ; nios_system ; --         ;
 ; SOPCINFO_FILE                       ; nios_system/synthesis/../../nios_system.sopcinfo              ; --            ; --          ; --         ;
 ; SYNTHESIS_ONLY_QIP                  ; On                                                            ; --            ; --          ; --         ;
 +-------------------------------------+---------------------------------------------------------------+---------------+-------------+------------+
@@ -102,11 +102,11 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:43     ; 1.0                     ; 5014 MB             ; 00:01:07                           ;
-; Fitter               ; 00:01:02     ; 1.1                     ; 6738 MB             ; 00:02:30                           ;
-; Assembler            ; 00:00:08     ; 1.0                     ; 4855 MB             ; 00:00:08                           ;
-; Timing Analyzer      ; 00:00:10     ; 1.7                     ; 5278 MB             ; 00:00:16                           ;
-; Total                ; 00:02:03     ; --                      ; --                  ; 00:04:01                           ;
+; Analysis & Synthesis ; 00:00:44     ; 1.0                     ; 5000 MB             ; 00:01:05                           ;
+; Fitter               ; 00:01:08     ; 1.1                     ; 6727 MB             ; 00:02:55                           ;
+; Assembler            ; 00:00:08     ; 1.0                     ; 4848 MB             ; 00:00:08                           ;
+; Timing Analyzer      ; 00:00:10     ; 1.7                     ; 5265 MB             ; 00:00:16                           ;
+; Total                ; 00:02:10     ; --                      ; --                  ; 00:04:24                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

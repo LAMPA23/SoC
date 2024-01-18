@@ -20,11 +20,23 @@
 					"strict" : false
 				},
 				{
-					"name" : "CLOCK_50",
+					"name" : "LEDR[4]",
 					"strict" : false
 				},
 				{
-					"name" : "KEY[0]",
+					"name" : "LEDR[5]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[6]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[7]",
+					"strict" : false
+				},
+				{
+					"name" : "CLOCK_50",
 					"strict" : false
 				},
 				{
@@ -32,7 +44,23 @@
 					"strict" : false
 				},
 				{
-					"name" : "SW[1]",
+					"name" : "SW[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SW[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SW[7]",
+					"strict" : false
+				},
+				{
+					"name" : "SW[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SW[3]",
 					"strict" : false
 				},
 				{
@@ -40,7 +68,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "SW[3]",
+					"name" : "SW[1]",
+					"strict" : false
+				},
+				{
+					"name" : "KEY[0]",
 					"strict" : false
 				}
 			]

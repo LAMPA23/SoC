@@ -40,15 +40,15 @@ refer to the applicable agreement for further details.
 	(port
 		(pt 0 192)
 		(input)
-		(text "switches_export[3..0]" (rect 0 0 83 12)(font "Arial" (font_size 8)))
-		(text "switches_export[3..0]" (rect 4 181 130 192)(font "Arial" (font_size 8)))
+		(text "switches_export[7..0]" (rect 0 0 83 12)(font "Arial" (font_size 8)))
+		(text "switches_export[7..0]" (rect 4 181 130 192)(font "Arial" (font_size 8)))
 		(line (pt 0 192)(pt 128 192)(line_width 3))
 	)
 	(port
 		(pt 0 112)
 		(output)
-		(text "leds_export[3..0]" (rect 0 0 66 12)(font "Arial" (font_size 8)))
-		(text "leds_export[3..0]" (rect 4 101 106 112)(font "Arial" (font_size 8)))
+		(text "leds_export[7..0]" (rect 0 0 66 12)(font "Arial" (font_size 8)))
+		(text "leds_export[7..0]" (rect 4 101 106 112)(font "Arial" (font_size 8)))
 		(line (pt 0 112)(pt 128 112)(line_width 3))
 	)
 	(drawing
