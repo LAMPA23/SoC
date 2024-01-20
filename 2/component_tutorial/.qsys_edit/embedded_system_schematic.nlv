@@ -1,0 +1,15 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst embedded_system.onchip_memory2_0 -pg 1 -lvl 2 -y 60
+preplace inst embedded_system.clk_0 -pg 1 -lvl 2 -y 290
+preplace inst embedded_system -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst embedded_system.nios2_qsys_0 -pg 1 -lvl 1 -y 30
+preplace inst embedded_system.reg32_avalon_interface_0 -pg 1 -lvl 2 -y 150
+preplace netloc EXPORT<net_container>embedded_system</net_container>(SLAVE)reg32_avalon_interface_0.conduit_end,(SLAVE)embedded_system.to_hex) 1 0 2 NJ 220 NJ
+preplace netloc FAN_OUT<net_container>embedded_system</net_container>(MASTER)clk_0.clk,(SLAVE)reg32_avalon_interface_0.clock_sink,(SLAVE)nios2_qsys_0.clk,(SLAVE)onchip_memory2_0.clk1) 1 0 3 100 160 390 260 650
+preplace netloc EXPORT<net_container>embedded_system</net_container>(SLAVE)embedded_system.reset,(SLAVE)clk_0.clk_in_reset) 1 0 2 NJ 320 NJ
+preplace netloc EXPORT<net_container>embedded_system</net_container>(SLAVE)clk_0.clk_in,(SLAVE)embedded_system.clk) 1 0 2 NJ 300 NJ
+preplace netloc INTERCONNECT<net_container>embedded_system</net_container>(MASTER)clk_0.clk_reset,(MASTER)nios2_qsys_0.jtag_debug_module_reset,(SLAVE)nios2_qsys_0.reset_n,(SLAVE)onchip_memory2_0.reset1,(SLAVE)reg32_avalon_interface_0.clock_reset) 1 0 3 120 180 410 280 630
+preplace netloc INTERCONNECT<net_container>embedded_system</net_container>(SLAVE)onchip_memory2_0.s1,(MASTER)nios2_qsys_0.instruction_master,(MASTER)nios2_qsys_0.data_master,(SLAVE)reg32_avalon_interface_0.avalon_slave_0,(SLAVE)nios2_qsys_0.jtag_debug_module) 1 0 2 80 200 370
+levelinfo -pg 1 0 50 690
+levelinfo -hier embedded_system 60 150 460 670
