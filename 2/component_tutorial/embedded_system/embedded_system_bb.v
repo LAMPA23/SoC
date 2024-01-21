@@ -2,11 +2,11 @@
 module embedded_system (
 	clk_clk,
 	reset_reset_n,
-	to_hex_readdata,
-	switches_export);	
+	switches_export,
+	to_hex_readdata);	
 
 	input		clk_clk;
 	input		reset_reset_n;
-	output	[31:0]	to_hex_readdata;
 	input	[3:0]	switches_export;
+	output	[31:0]	to_hex_readdata;
 endmodule

@@ -1,16 +1,16 @@
-Fitter Status : Successful - Sat Jan 20 19:14:13 2024
+Fitter Status : Successful - Sat Jan 20 20:22:05 2024
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : component_tutorial
 Top-level Entity Name : component_tutorial
 Family : Cyclone V
 Device : 5CSEBA6U23I7
 Timing Models : Final
-Logic utilization (in ALMs) : 683 / 41,910 ( 2 % )
-Total registers : 998
+Logic utilization (in ALMs) : 731 / 41,910 ( 2 % )
+Total registers : 1002
 Total pins : 13 / 314 ( 4 % )
 Total virtual pins : 0
-Total block memory bits : 44,032 / 5,662,720 ( < 1 % )
-Total RAM Blocks : 9 / 553 ( 2 % )
+Total block memory bits : 811,264 / 5,662,720 ( 14 % )
+Total RAM Blocks : 103 / 553 ( 19 % )
 Total DSP Blocks : 0 / 112 ( 0 % )
 Total HSSI RX PCSs : 0
 Total HSSI PMA RX Deserializers : 0

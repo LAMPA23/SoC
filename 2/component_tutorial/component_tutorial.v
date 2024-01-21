@@ -1,9 +1,9 @@
-module component_tutorial (CLOCK_50, KEY, HEX0, SW); 
+module component_tutorial (CLOCK_50, KEY, HEX, SW); 
 
 	input CLOCK_50; 
 	input KEY;
 	input [3:0] SW;
-	output [0:6] HEX0; 
+	output [0:6] HEX; 
 	wire [15:0] to_HEX;
 	
 	embedded_system U0 ( 
@@ -13,6 +13,6 @@ module component_tutorial (CLOCK_50, KEY, HEX0, SW);
 		.switches_export(SW)
 	); 
 	
-	hex7seg h0(to_HEX[3:0], HEX0);
+	hex7seg h0(to_HEX[3:0], HEX);
 	
 endmodule 

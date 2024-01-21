@@ -1,5 +1,5 @@
 Flow report for component_tutorial
-Sat Jan 20 19:14:33 2024
+Sat Jan 20 20:22:27 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,18 +40,18 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Sat Jan 20 19:14:23 2024       ;
+; Flow Status                     ; Successful - Sat Jan 20 20:22:16 2024       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; component_tutorial                          ;
 ; Top-level Entity Name           ; component_tutorial                          ;
 ; Family                          ; Cyclone V                                   ;
 ; Device                          ; 5CSEBA6U23I7                                ;
 ; Timing Models                   ; Final                                       ;
-; Logic utilization (in ALMs)     ; 683 / 41,910 ( 2 % )                        ;
-; Total registers                 ; 998                                         ;
+; Logic utilization (in ALMs)     ; 731 / 41,910 ( 2 % )                        ;
+; Total registers                 ; 1002                                        ;
 ; Total pins                      ; 13 / 314 ( 4 % )                            ;
 ; Total virtual pins              ; 0                                           ;
-; Total block memory bits         ; 44,032 / 5,662,720 ( < 1 % )                ;
+; Total block memory bits         ; 811,264 / 5,662,720 ( 14 % )                ;
 ; Total DSP Blocks                ; 0 / 112 ( 0 % )                             ;
 ; Total HSSI RX PCSs              ; 0                                           ;
 ; Total HSSI PMA RX Deserializers ; 0                                           ;
@@ -67,7 +67,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 01/20/2024 19:12:23 ;
+; Start date & time ; 01/20/2024 20:20:28 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; component_tutorial  ;
 +-------------------+---------------------+
@@ -78,7 +78,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+-------------------------------------------------------------------+---------------+-----------------+------------+
 ; Assignment Name                     ; Value                                                             ; Default Value ; Entity Name     ; Section Id ;
 +-------------------------------------+-------------------------------------------------------------------+---------------+-----------------+------------+
-; COMPILER_SIGNATURE_ID               ; 255543642624149.170577074213172                                   ; --            ; --              ; --         ;
+; COMPILER_SIGNATURE_ID               ; 255543642624149.170577482809664                                   ; --            ; --              ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 100                                                               ; --            ; --              ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; -40                                                               ; --            ; --              ; --         ;
 ; MISC_FILE                           ; embedded_system/synthesis/../embedded_system.cmp                  ; --            ; --              ; --         ;
@@ -91,7 +91,7 @@ refer to the applicable agreement for further details.
 ; PROJECT_OUTPUT_DIRECTORY            ; output_files                                                      ; --            ; --              ; --         ;
 ; SLD_FILE                            ; embedded_system/synthesis/embedded_system.regmap                  ; --            ; --              ; --         ;
 ; SLD_FILE                            ; embedded_system/synthesis/embedded_system.debuginfo               ; --            ; --              ; --         ;
-; SLD_INFO                            ; QSYS_NAME embedded_system HAS_SOPCINFO 1 GENERATION_ID 1705770265 ; --            ; embedded_system ; --         ;
+; SLD_INFO                            ; QSYS_NAME embedded_system HAS_SOPCINFO 1 GENERATION_ID 1705774800 ; --            ; embedded_system ; --         ;
 ; SOPCINFO_FILE                       ; embedded_system/synthesis/../../embedded_system.sopcinfo          ; --            ; --              ; --         ;
 ; SYNTHESIS_ONLY_QIP                  ; On                                                                ; --            ; --              ; --         ;
 +-------------------------------------+-------------------------------------------------------------------+---------------+-----------------+------------+
@@ -102,11 +102,11 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:36     ; 1.0                     ; 4968 MB             ; 00:01:03                           ;
-; Fitter               ; 00:01:11     ; 1.1                     ; 6764 MB             ; 00:02:27                           ;
-; Assembler            ; 00:00:07     ; 1.0                     ; 4842 MB             ; 00:00:07                           ;
-; Timing Analyzer      ; 00:00:09     ; 1.5                     ; 5248 MB             ; 00:00:13                           ;
-; Total                ; 00:02:03     ; --                      ; --                  ; 00:03:50                           ;
+; Analysis & Synthesis ; 00:00:37     ; 1.0                     ; 4972 MB             ; 00:01:01                           ;
+; Fitter               ; 00:00:58     ; 1.1                     ; 6717 MB             ; 00:02:16                           ;
+; Assembler            ; 00:00:08     ; 1.0                     ; 4870 MB             ; 00:00:08                           ;
+; Timing Analyzer      ; 00:00:10     ; 1.7                     ; 5263 MB             ; 00:00:15                           ;
+; Total                ; 00:01:53     ; --                      ; --                  ; 00:03:40                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
