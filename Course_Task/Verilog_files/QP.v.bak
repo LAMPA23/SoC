@@ -1,0 +1,26 @@
+module QP (
+    input CLOCK_50_i,
+    input KEY_rst_n_i,
+    output [6:0] SEG_o,
+    output [3:0] SS_o
+);
+
+    wire [31:0] reg32;
+
+    ES ES_inst (
+        .clk_clk(CLOCK_50_i),          //     clk.clk
+        .leds_7_export(SEG_o),    //  leds_7.export
+        .reset_reset_n(KEY_rst_n_i),    //   reset.reset_n
+        .ss_4_export(SS_o),      //    ss_4.export
+        .to_leds_readdata(reg32)  // to_leds.readdata
+    );
+
+    selector selector_inst (
+        .clk_i(CLOCK_50_i),
+        .rst_n_i(KEY_rst_n_i),
+        .reg_16_i(reg32[15:0]),
+        .seg_display_o(SEG_o),
+        .SS_o(SS_o)
+    );
+ 
+endmodule 

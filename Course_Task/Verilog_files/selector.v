@@ -21,16 +21,16 @@ module selector (
             if (counter > period) begin
                 counter <= 64'b0;
             end else if(counter > period / 4 * 3) begin
-                SS_o <= 4'b1000;
+                SS_o <= 4'b0111;
                 seg_code <= reg_16_i[15:12];
             end else if(counter > period / 4 * 2) begin
-                SS_o <= 4'b0100;
+                SS_o <= 4'b1011;
                 seg_code <= reg_16_i[11:8];
             end else if(counter > period / 4) begin
                 seg_code <= reg_16_i[7:4];
-                SS_o <= 4'b0010;
+                SS_o <= 4'b1101;
             end else if(counter < period / 4) begin
-                SS_o <= 4'b0001;
+                SS_o <= 4'b1110;
                 seg_code <= reg_16_i[3:0];
             end
         end    
