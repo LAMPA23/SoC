@@ -6,10 +6,11 @@
    <connections preferredWidth="143" />
    <irq preferredWidth="34" />
    <inputclock preferredWidth="136" />
-   <name preferredWidth="178" />
+   <name preferredWidth="212" />
   </columns>
  </systemtable>
- <library expandedCategories="Project,Library" />
+ <library
+   expandedCategories="Library/Basic Functions/On Chip Memory,Project,Library/Basic Functions,Library" />
  <window width="1920" height="1030" x="0" y="0" />
  <hdlexample language="VERILOG" />
 </preferences>

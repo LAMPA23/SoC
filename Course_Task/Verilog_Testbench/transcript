@@ -1,43 +1,43 @@
 # do sim.do
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:02:22 on Jan 21,2024
+# Start time: 05:41:49 on Jan 22,2024
 # vlog -reportprogress 300 C:/Users/bimee/OneDrive/SoC/Course_Task/Verilog_files/selector.v 
 # -- Compiling module selector
 # 
 # Top level modules:
 # 	selector
-# End time: 21:02:22 on Jan 21,2024, Elapsed time: 0:00:00
+# End time: 05:41:49 on Jan 22,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:02:22 on Jan 21,2024
+# Start time: 05:41:49 on Jan 22,2024
 # vlog -reportprogress 300 C:/Users/bimee/OneDrive/SoC/Course_Task/Verilog_files/seg_decode.v 
 # -- Compiling module seg_decode
 # 
 # Top level modules:
 # 	seg_decode
-# End time: 21:02:22 on Jan 21,2024, Elapsed time: 0:00:00
+# End time: 05:41:49 on Jan 22,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:02:22 on Jan 21,2024
+# Start time: 05:41:49 on Jan 22,2024
 # vlog -reportprogress 300 C:/Users/bimee/OneDrive/SoC/Course_Task/Verilog_Testbench/tb_for_selector.v 
 # -- Compiling module tb_for_selector
 # 
 # Top level modules:
 # 	tb_for_selector
-# End time: 21:02:22 on Jan 21,2024, Elapsed time: 0:00:00
+# End time: 05:41:49 on Jan 22,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim work.tb_for_selector 
-# Start time: 21:02:22 on Jan 21,2024
+# Start time: 05:41:50 on Jan 22,2024
 # Loading work.tb_for_selector
 # Loading work.selector
 # Loading work.seg_decode
-# ** Note: $stop    : C:/Users/bimee/OneDrive/SoC/Course_Task/Verilog_Testbench/tb_for_selector.v(45)
-#    Time: 1 sec  Iteration: 0  Instance: /tb_for_selector
-# Break in Module tb_for_selector at C:/Users/bimee/OneDrive/SoC/Course_Task/Verilog_Testbench/tb_for_selector.v line 45
+# ** Note: $stop    : C:/Users/bimee/OneDrive/SoC/Course_Task/Verilog_Testbench/tb_for_selector.v(24)
+#    Time: 100 ms  Iteration: 0  Instance: /tb_for_selector
+# Break in Module tb_for_selector at C:/Users/bimee/OneDrive/SoC/Course_Task/Verilog_Testbench/tb_for_selector.v line 24
 # ** Error: bad window path name "1ns"
 # Error in macro ./sim.do line 23
 # bad window path name "1ns"
 #     while executing
 # "scale 1ns"
-# End time: 21:12:04 on Jan 21,2024, Elapsed time: 0:09:42
+# End time: 05:52:29 on Jan 22,2024, Elapsed time: 0:10:39
 # Errors: 3, Warnings: 0
